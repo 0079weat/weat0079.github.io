@@ -1,0 +1,56 @@
+body {
+    font-size: 18px;
+    margin: 0;
+    background-color: white;
+    height: 100vh
+    
+ }
+
+ header {
+     margin: 1em;
+     font: Work Sans;
+     font-size: 25px;
+     font-style: italic;
+     text-decoration: underline;
+ }
+
+ .nav {
+     float: unset;
+     text-decoration: none;
+
+ }
+ 
+ .site-title {
+     background-color: aquamarine;
+     font-size: 19px;
+     margin: 1em;
+ }
+ 
+ footer {
+     background-color: aquamarine;
+     margin: 1em;
+ }
+ 
+ #my-image {
+     filter:drop-shadow(0 0 5px)
+ 
+ }
+ 
+ li {
+ color: rgb(0, 0, 0);
+ font-size: 15px;
+ text-transform: uppercase;
+ font-family: Work Sans;
+ list-style: none;
+ letter-spacing: 2.5px;
+ }
+ 
+ li:before {
+     content: "\25AA"
+ }
+ 
+ li:nth-child(1), li:nth-child(4){
+   background-color: rgb(172, 172, 172);
+
+ 
+ }
